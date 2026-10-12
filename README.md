@@ -59,6 +59,7 @@ PRACTICAL-7
 Summary
 
 This practical involved implementing the Coin Change problem using a dynamic programming (tabulation) approach. The objective was to determine the minimum number of coin denominations required to construct a specific target currency amount. The program maintains a lookup array (dp) where each index represents an incremental amount up to the target, iteratively updating each state by evaluating available coin choices.Dynamic Programming Coin Change: Computes optimal coin sub-problems sequentially, avoiding redundant recalculations through bottom-up optimization.(Time Complexity: \(O(A \times N)\) | Space Complexity: O(A), where A is the target amount and N is the number of coin types)
+
 PRACTICAL-5
 
 Summary
